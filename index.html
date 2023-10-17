@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Scoreboard</title>
+
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./main.js" defer></script>
+
+</head>
+<body>
+  <main class="main">
+    <h1 class="title">Basketball Scoreboard</h1>
+    <article class="scoreboard">
+      <section class="team">
+        <h2 class="team__title">home</h2>
+        <div class="team-score">
+          <span id="home-score" class="score">0</span>
+        </div>
+        <form action="#" class="container-points">
+          <button class="point" onclick="add1home()">+1</button>
+          <button class="point" onclick="add2home()">+2</button>
+          <button class="point" onclick="add3home()">+3</button>
+        </form>
+      </section>
+      <section class="team">
+        <h2 class="team__title">guest</h2>
+        <div class="team-score">
+          <span id="guest-score" class="score">0</span>
+        </div>
+        <form action="#" class="container-points">
+          <button class="point" onclick="add1guest()">+1</button>
+          <button class="point" onclick="add2guest()">+2</button>
+          <button class="point" onclick="add3guest()">+3</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <small class="attr">Practice by <a href="#" class="attr-link" target="_blank" rel="noreferrer">Scrimba</a> - Coded by <a href="#" class="attr-link" target="_blank" rel="noreferrer">vimp</a> 😉</small>
+  </footer>
+</body>
+</html>
