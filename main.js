@@ -1,30 +1,43 @@
 let homeScoreEl = document.getElementById("home-score")
 let guestScoreEl = document.getElementById("guest-score")
+let scoreboard = document.getElementById("scoreboard")
 
-let sum = 0
+scoreboard.addEventListener("submit", (evt) => {
+  evt.preventDefault()
+})
 
+homeScoreEl.defaultValue = 0
+guestScoreEl.defaultValue = 0
+
+let homePoint = 0
 function add1home() {
-  sum += 1
-  homeScoreEl.textContent = sum
+  homePoint += 1
+  homeScoreEl.value = homePoint
 }
 function add2home() {
-  sum += 2
-  homeScoreEl.textContent = sum
+  homePoint += 2
+  homeScoreEl.value = homePoint
 }
 function add3home() {
-  sum += 3
-  homeScoreEl.textContent = sum
+  homePoint += 3
+  homeScoreEl.value = homePoint
 }
 
+let guestPoint = 0
 function add1guest() {
-  sum += 1
-  guestScoreEl.textContent = sum
+  guestPoint += 1
+  guestScoreEl.value = guestPoint
 }
 function add2guest() {
-  sum += 2
-  guestScoreEl.textContent = sum
+  guestPoint += 2
+  guestScoreEl.value = guestPoint
 }
 function add3guest() {
-  sum += 3
-  guestScoreEl.textContent = sum
+  guestPoint += 3
+  guestScoreEl.value = guestPoint
+}
+
+function clean() {
+  homePoint = 0
+  guestPoint = 0
 }
