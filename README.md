@@ -4,13 +4,17 @@ This is a solution for the project: **"Basketball Scoreboard"** of the ["Learn J
 
 ![Preview](./assets/vid/preview.gif)
 
-📱 Mobile
+## 📱 Mobile
 
 ![Mobile](./assets/img/mobile-preview.webp)
 
-💻 Desktop
+## 💻 Desktop
 
 ![Desktop](./assets/img/desktop-preview.webp)
+
+## Demo
+
+✨ Want to have a look?, [click here](https://vanmendez.github.io/basketball-scoreboard/) 👀
 
 ## Resources
 
