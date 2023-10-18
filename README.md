@@ -1,6 +1,6 @@
 # Basketball Scoreboard
 
-Practice of the ["Learn JavaScript"](https://scrimba.com/learn/learnjavascript) by [Scrimba](https://scrimba.com/).
+This is a solution for the project: **"Basketball Scoreboard"** of the ["Learn JavaScript"](https://scrimba.com/learn/learnjavascript) course by [Scrimba](https://scrimba.com/).
 
 ![Preview](./assets/vid/preview.gif)
 
