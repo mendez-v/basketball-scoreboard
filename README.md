@@ -14,7 +14,7 @@ This is a solution for the project: **"Basketball Scoreboard"** of the ["Learn J
 
 ## Demo
 
-✨ Want to have a look?, [click here](https://vanmendez.github.io/basketball-scoreboard/) 👀
+✨ Want to have a look?, [click here](https://mendez-v.github.io/basketball-scoreboard/) 👀
 
 ## Resources
 
