@@ -23,7 +23,7 @@ This is my solution to the **Solo project: Basketball Scoreboard** of the course
 
 #### *Stretch goals*:
 
-🎯 Add a 'Reset' button
+🎯 Add a 'New Game' button
 
 🎯 Highlight the leader
 
