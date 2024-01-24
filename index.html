@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Scoreboard</title>
+
+  <link rel="apple-touch-icon" href="./assets/icon/favicon.svg">
+  <link rel="icon" href="./assets/icon/favicon.svg">
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="main">
+    <h1 class="title fs-l">FCP M3 - Scrimba</h1>
+    <section class="board radius">
+      <div class="box">
+        <h2 class="box__title fs-l">home</h2>
+        <div class="score-wrap radius ff-timer fs-xl">
+          <span class="score" id="h-score">0</span>
+        </div>
+        <div class="btn-wrap ff-timer fs-s">
+          <button class="btn radius" onclick="add1Home()">+1</button>
+          <button class="btn radius" onclick="add2Home()">+2</button>
+          <button class="btn radius" onclick="add3Home()">+3</button>
+        </div>
+      </div>
+      <div class="box">
+        <h2 class="box__title fs-l">guest</h2>
+        <div class="score-wrap radius ff-timer fs-xl">
+          <span class="score" id="g-score">0</span>
+        </div>
+        <div class="btn-wrap ff-timer fs-s">
+          <button class="btn radius" onclick="add1Guest()">+1</button>
+          <button class="btn radius" onclick="add2Guest()">+2</button>
+          <button class="btn radius" onclick="add3Guest()">+3</button>
+        </div>
+      </div>
+      <button class="new-btn ff-timer fs-m radius" onclick="newGame()">new game</button>
+    </section>
+  </main>
+  <footer class="attribution">
+    <small> Frontend Career Path by <a href="https://scrimba.com/learn/frontend" class="attribution__cta" target="_blank" rel="noreferrer">Scrimba</a> - Coded by <a href="https://github.com/mendez-v/basketball-scoreboard" class="attribution__cta" target="_blank" rel="noreferrer">VIMP</a> 💜</small>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
